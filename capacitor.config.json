@@ -1,0 +1,27 @@
+{
+  "appId": "com.example.app",
+  "appName": "ios-bug-repro",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  },
+  "server": {
+    "androidScheme": "https"
+  },
+  "cordova": {
+  },
+  "ios": {
+    "appendUserAgent": "ios:application"
+  },
+  "android": {
+    "buildOptions": {
+      "signingType": "apksigner"
+    }
+  }
+}
